@@ -1,0 +1,12 @@
+.nav-link:hover:before {
+  content: "";
+  position: absolute;
+  height: 5px;
+  width: 5px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  display: inline-block;
+  bottom: 0;
+  margin: auto 40%;
+  text-align: center;
+}
